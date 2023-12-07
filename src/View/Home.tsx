@@ -5,6 +5,7 @@ import { Welcome } from "../Components/Welcome/Welcome"
 import "./Home.css"
 import { Divider } from "@mui/material"
 import { useRef } from "react"
+import { Skills } from "../Components/Skills/Skills"
 
 
 export const Home:React.FC = () => {
@@ -21,6 +22,7 @@ export const Home:React.FC = () => {
             <div ref={ref}>
                 <Profile/>
             </div>
+            <Skills/>
             <Abilities/>
             <Accounts/>
         </div>

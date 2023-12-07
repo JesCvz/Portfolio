@@ -1,3 +1,4 @@
+
 .row{
     display: flex;
     flex-direction: row;
@@ -12,18 +13,14 @@
     align-items: center;
 }
 
-.Card{
-    background-color: rgb(35, 35, 41);
-    border-radius: 10px;
+.Introduction{
+    text-align: center;
+    min-height: 40vH;
+}
+.Name {
+    color:rgb(148, 120, 248)
 }
 
-.JesusPhoto{
-    width: 200px;
-    border-radius: 10px;
-}
-
-
-
-@media (max-width: 1250px) {
-
+.Buttons{
+    margin: 10px;
 }

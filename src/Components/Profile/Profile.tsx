@@ -1,47 +1,23 @@
 import './Profile.css';
-import { Divider, Typography } from "@mui/material"
+import { Typography } from "@mui/material"
 import JesusPhoto from '../../assets/jesus.jpg';
-import ReactLogo from '../../assets/React-icon.svg.png'
-import AngularLogo from '../../assets/angular.png';
-import Java from '../../assets/Java.png'
-import Python from '../../assets/python.png'
-import CSharp from '../../assets/CSharp.png'
-import PHP from '../../assets/PHP.png'
-import Node from '../../assets/Node.png'
-
-
 
 export const Profile = () =>{
     return(
-        <div className="row ProfileStyle">
-            <div>
-                <img className='ProfilePhoto' src={JesusPhoto}/>
-            </div>
-            
-
-            <div className='col AboutMeStyle'>
-                <Typography variant="h3">Jesús Eduardo Marroquín Cavazos</Typography>
-                <Typography variant="h5">
-                    FrontEnd
+        <div className='row Card' style={{padding:"30px"}}>
+            <img className='JesusPhoto' src={JesusPhoto} alt="" />
+            <div className='col' style={{alignItems:"start"}}>
+                <Typography fontWeight="600" variant='h5' sx={{padding:4}}>About me</Typography>
+                <Typography sx={{padding:"0px 30px"}}>
+                    I'm a Software Engineering with three years of experience working as a FullStack Engineer.<br/> 
+                    My expertise lies in backend technologies including JAVA, PHP, C# and Python,<br/> 
+                    complemented by my proficiency in frontend development with React and Angular. <br/> 
+                    In addition to my technical roles, I’ve also served as an Operational Lead. <br/> 
+                    My responsibilities encompassed steering client discussions, adeptly allocating resources, <br/> 
+                    and ensuring seamless project execution.<br/> 
                 </Typography>
-                <Divider className='Divider' flexItem/>
-
-                <div className='row'>
-                    <img className='Logos' src={ReactLogo}/>
-                    <img className='Logos' src={AngularLogo}/>
-                </div>
-                <Typography variant="h5">
-                    Backend
-                </Typography>
-                <Divider className='Divider' flexItem/>
-                <div className='row'>
-                    <img className='LogoHorizontal' src={PHP} />
-                    <img className='Logos' src={CSharp}/>
-                    <img className='Logos' src={Java}/>
-                    <img className='Logos' src={Python}/>
-                    <img className='LogoHorizontal' src={Node} />
-                </div>
             </div>
         </div>
+        
     )
 }

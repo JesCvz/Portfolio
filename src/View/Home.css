@@ -1,12 +1,16 @@
 .body{
     display: flex;
     flex-direction: column;
-    width: 100vW;
-    height: 100vH;
+    min-height: 100vH;
     justify-content: center;
     align-items: center;
     margin: 0;
     padding: 0;
-    background: rgb(0,0,0);
-    background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(109,109,109,1) 100%);
+    background: rgb(34, 34, 34);
+}
+
+.Divider{
+    height: 10px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 5px;
 }

@@ -16,7 +16,7 @@ export const Crud:React.FC = () =>{
     const [error, setError] = useState(null);
     const [open, setOpen] = useState(false);
 
-    const apiURL = "http://localhost:5127/api/clients/";
+    const apiURL = "https://agendaappservice.azurewebsites.net/api/clients/";
     const [reload, setReload] = useState(false);
 
 
@@ -52,7 +52,7 @@ export const Crud:React.FC = () =>{
     },[page, reload])
 
     const handleDelete = (ID:number) =>{
-        fetch(`http://localhost:5127/api/clients/${ID}`, {
+        fetch(`${apiURL}${ID}`, {
             method: "DELETE",
             mode: "cors",
         })
@@ -81,7 +81,7 @@ export const Crud:React.FC = () =>{
 
     const handlePlusButtonModal = () =>{
         if(id != ''){
-            fetch(`http://localhost:5127/api/clients/${id}`, {
+            fetch(`${apiURL}${id}`, {
             method: "PUT",
             mode: "cors",
             headers: {
@@ -107,7 +107,7 @@ export const Crud:React.FC = () =>{
             })
         }
         console.log('aqui')
-        fetch(`http://localhost:5127/api/clients/create`, {
+        fetch(`${apiURL}create`, {
             method: "POST",
             mode: "cors",
             headers: {

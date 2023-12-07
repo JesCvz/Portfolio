@@ -1,11 +1,10 @@
-import { Accounts } from "../Components/Accounts/Accounts"
-import { Abilities } from "../Components/Abilties/Abilities"
-import { Profile } from "../Components/Profile/Profile"
-import { Welcome } from "../Components/Welcome/Welcome"
 import "./Home.css"
-import { Divider } from "@mui/material"
+import { Accounts } from "../../Components/Accounts/Accounts"
+import { Abilities } from "../../Components/Abilties/Abilities"
+import { Profile } from "../../Components/Profile/Profile"
+import { Welcome } from "../../Components/Welcome/Welcome"
 import { useRef } from "react"
-import { Skills } from "../Components/Skills/Skills"
+import { Skills } from "../../Components/Skills/Skills"
 
 
 export const Home:React.FC = () => {

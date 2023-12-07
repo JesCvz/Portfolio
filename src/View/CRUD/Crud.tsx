@@ -1,5 +1,5 @@
 import "./Crud.css";
-import { Box, Button, Modal, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TextField, Typography } from "@mui/material"
+import { Button, Modal, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TextField, Typography } from "@mui/material"
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 import CircularProgress from '@mui/material/CircularProgress';
@@ -13,7 +13,7 @@ export const Crud:React.FC = () =>{
     const [page, setPage] = useState<number>(0);
     const [users, setUsers] = useState<any>(null);
     const [loading, setLoading] = useState(false);
-    const [error, setError] = useState(null);
+    const [_error, setError] = useState(null);
     const [open, setOpen] = useState(false);
 
     const apiURL = "https://agendaappservice.azurewebsites.net/api/clients/";

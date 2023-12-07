@@ -1,5 +1,5 @@
 import './Accounts.css'
-import { Divider, Typography } from '@mui/material'
+import { Typography } from '@mui/material'
 import Accenture from "../../assets/Accenture-logo.png"
 import Meta from "../../assets/Meta.png"
 import ATT from "../../assets/ATT.png"

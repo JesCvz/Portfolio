@@ -1,5 +1,5 @@
 import './Abilities.css';
-import { Box, Grid, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import ReactImage from '../../assets/React-icon.svg.png';
 import Angular from '../../assets/angular.png';
 import PHP from '../../assets/PHP.png';

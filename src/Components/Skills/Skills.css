@@ -4,4 +4,14 @@
 .Card{
     background-color: rgb(35, 35, 41);
     border-radius: 10px;
+    padding: 20px;
+}
+
+.addPadding{
+    margin: 20px 20px;
+    margin-bottom: 0px;
+}
+
+.IconStyles{
+    font-size: 200px;
 }

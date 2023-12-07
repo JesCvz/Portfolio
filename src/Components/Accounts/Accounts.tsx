@@ -22,8 +22,8 @@ export const Accounts = () => {
                     <div className='row' style={{alignItems:'flex-start'}}>
                         <div className='col' style={{margin:10}}>
                         <div>
-                            <Typography>React : FrontEnd,  || PHP(Hack), Python, C++ Backend</Typography>
-                            <Typography>Databases: Oracle Database</Typography>
+                            <Typography>React : FrontEnd  || PHP(Hack), Python, C++ : Backend</Typography>
+                            <Typography>Databases: MySQL, Apache Cassandra</Typography>
                             <Typography>Cloud: AWS</Typography>
                             <Typography>Area of Development: Legal Platforms Engineering</Typography>
 
@@ -51,7 +51,7 @@ export const Accounts = () => {
                         <div className='col' style={{margin:10}}>
                             
                         <div>
-                            <Typography>React : FrontEnd,  || Java Springboot : Backend</Typography>
+                            <Typography>React : FrontEnd  || Java Springboot : Backend</Typography>
                             <Typography>Databases: Oracle Databases</Typography>
                             <Typography>Cloud: AWS</Typography>
                             <Typography>Area of Development: Ondemand Streaming Services</Typography>

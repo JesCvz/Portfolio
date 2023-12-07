@@ -3,6 +3,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     min-height: 1vW;
 }
 
@@ -10,4 +11,9 @@ nav{
     width: 100px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
